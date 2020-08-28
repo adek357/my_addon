@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.my.anime"
+version="0.0.1"
+name="AnimeDesu"
+provider-name="A_K">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="script.module.requests" version="2.22.0" />
+  <import addon="script.common.plugin.cache" version="2.5.5" />
+  <import addon="script.module.urlresolver" version="5.0.20" />
+  <import addon="script.module.beautifulsoup4" version="4.5.3" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">AnimeDesu</summary>
+  <description lang="en_GB">nothing</description>
+  <disclaimer lang="en_GB">nothing</disclaimer>
+  <assets>
+    <icon>logo.png</icon>
+    <fanart>logo.png</fanart>
+    <!--<screenshot>resources\screenshot-01.jpg</screenshot>
+    <screenshot>resources\screenshot-02.jpg</screenshot>
+    <screenshot>resources\screenshot-03.jpg</screenshot> -->    
+  </assets>
+  <news>Updated with latest artwork metadata</news>
+</extension>
+</addon>
